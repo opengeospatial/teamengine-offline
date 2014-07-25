@@ -1,5 +1,10 @@
 # TEAM ENGINE OFFLINE 
 
+author: Luis Bermudez, Richard Martell, Chris Coppock<br/>
+TE Version 4.0.5<br/>
+date: July 25th, 2014<br/>
+questions:http://cite.opengeospatial.org/forum<br/>
+<br/>
 Team Engine - Offline Repository
 - This repository provides information, scripts, test results and other artifacts to run (TEAM ENGINE)[https://github.com/opengeospatial/teamengine/] offline.
 
