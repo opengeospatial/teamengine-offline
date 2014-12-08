@@ -5,6 +5,7 @@ TEAM-engine 4.0.5
 
 asm:asm:jar:3.1
 <http://search.maven.org/#artifactdetails|asm|asm|3.1|jar>
+http://search.maven.org/remotecontent?filepath=asm/asm/3.1/asm-3.1-sources.jar
 
 com.beust:jcommander:jar:1.27 
 <http://search.maven.org/#artifactdetails|com.beust|jcommander|1.27|jar>
