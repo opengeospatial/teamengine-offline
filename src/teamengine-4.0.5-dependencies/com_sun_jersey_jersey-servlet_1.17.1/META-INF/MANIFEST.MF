@@ -1,0 +1,81 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1362052154605
+Build-Id: 1.17.1 ${buildNumber}
+Build-Jdk: 1.6.0_41
+Built-By: pavel
+Bundle-Description: Jersey is the open source (under dual CDDL+GPL licen
+ se) JAX-RS (JSR 311)        production quality Reference Implementation
+  for building        RESTful Web services.
+Bundle-DocURL: http://www.oracle.com/
+Bundle-License: http://glassfish.java.net/public/CDDL+GPL_1_1.html, http
+ ://glassfish.java.net/public/CDDL+GPL_1_1.html
+Bundle-ManifestVersion: 2
+Bundle-Name: jersey-servlet
+Bundle-SymbolicName: com.sun.jersey.servlet
+Bundle-Vendor: Oracle Corporation
+Bundle-Version: 1.17.1
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: com.sun.jersey.api.core.servlet;uses:="com.sun.jersey.co
+ re.spi.scanning,javax.servlet,com.sun.jersey.spi.scanning.servlet,com.s
+ un.jersey.api.core";version="1.17.1",com.sun.jersey.spi.container.servl
+ et;uses:="com.sun.jersey.server.impl.container.servlet,com.sun.jersey.s
+ erver.spi.component,com.sun.jersey.spi.inject,javax.servlet,com.sun.jer
+ sey.spi.container,com.sun.jersey.api.core,javax.ws.rs.core,com.sun.jers
+ ey.server.impl.application,com.sun.jersey.api.container,com.sun.jersey.
+ spi.service,com.sun.jersey.api.uri,javax.servlet.http,com.sun.jersey.co
+ re.util,com.sun.jersey.core.header,com.sun.jersey.server.impl.monitorin
+ g,com.sun.jersey.server.impl,javax.naming,com.sun.jersey.server.probes,
+ com.sun.jersey.core.reflection,com.sun.jersey.api.representation,com.su
+ n.jersey.api.core.servlet";version="1.17.1",com.sun.jersey.spi.scanning
+ .servlet;uses:="com.sun.jersey.core.spi.scanning,com.sun.jersey.core.ut
+ il,javax.servlet";version="1.17.1",com.sun.jersey.server.impl.container
+ .servlet;uses:="javax.servlet,javax.servlet.jsp.tagext,javax.servlet.js
+ p,javax.servlet.http,com.sun.jersey.api.container,com.sun.jersey.core.r
+ eflection,com.sun.jersey.spi.template,com.sun.jersey.api.view,com.sun.j
+ ersey.api.core,javax.ws.rs.core,javax.ws.rs,com.sun.jersey.server.impl.
+ application,javax.ws.rs.ext,javax.servlet.annotation,com.sun.jersey.spi
+ .container.servlet,com.sun.jersey.api.model,com.sun.jersey.core.spi.com
+ ponent,com.sun.jersey.server.spi.component,com.sun.jersey.server.impl.i
+ nject,com.sun.jersey.core.spi.component.ioc,com.sun.jersey.spi.inject,j
+ avax.persistence,com.sun.jersey.spi.container,com.sun.jersey.server.imp
+ l";version="1.17.1"
+Implementation-Title: jersey-servlet
+Implementation-Vendor: Oracle Corporation
+Implementation-Vendor-Id: com.sun.jersey
+Implementation-Version: 1.17.1
+Import-Package: com.sun.jersey.api.container;version="[1.17,2)",com.sun.
+ jersey.api.core;version="[1.17,2)",com.sun.jersey.api.model;version="[1
+ .17,2)",com.sun.jersey.api.representation;version="[1.17,2)",com.sun.je
+ rsey.api.uri;version="[1.17,2)",com.sun.jersey.api.view;version="[1.17,
+ 2)",com.sun.jersey.core.header;version="[1.17,2)",com.sun.jersey.core.o
+ sgi;resolution:=optional;version="[1.17,2)",com.sun.jersey.core.reflect
+ ion;version="[1.17,2)",com.sun.jersey.core.spi.component;version="[1.17
+ ,2)",com.sun.jersey.core.spi.component.ioc;version="[1.17,2)",com.sun.j
+ ersey.core.spi.scanning;version="[1.17,2)",com.sun.jersey.core.util;ver
+ sion="[1.17,2)",com.sun.jersey.server.impl;version="[1.17,2)",com.sun.j
+ ersey.server.impl.application;version="[1.17,2)",com.sun.jersey.server.
+ impl.inject;version="[1.17,2)",com.sun.jersey.server.impl.monitoring;ve
+ rsion="[1.17,2)",com.sun.jersey.server.probes;version="[1.17,2)",com.su
+ n.jersey.server.spi.component;version="[1.17,2)",com.sun.jersey.spi;ver
+ sion="[1.17,2)",com.sun.jersey.spi.container;version="[1.17,2)",com.sun
+ .jersey.spi.dispatch;version="[1.17,2)",com.sun.jersey.spi.inject;versi
+ on="[1.17,2)",com.sun.jersey.spi.service;version="[1.17,2)",com.sun.jer
+ sey.spi.template;version="[1.17,2)",com.sun.net.httpserver;resolution:=
+ optional,javax.annotation;resolution:=optional;version="[1.1,2)",javax.
+ ejb;resolution:=optional;version="3.1",javax.enterprise.context;resolut
+ ion:=optional;version="[1.0,2)",javax.enterprise.context.spi;resolution
+ :=optional;version="[1.0,2)",javax.enterprise.event;resolution:=optiona
+ l;version="[1.0,2)",javax.enterprise.inject;resolution:=optional;versio
+ n="[1.0,2)",javax.enterprise.inject.spi;resolution:=optional;version="[
+ 1.0,2)",javax.enterprise.util;resolution:=optional;version="[1.0,2)",ja
+ vax.inject;resolution:=optional;version="[1.0,2)",javax.interceptor;res
+ olution:=optional;version="3.1",javax.naming,javax.persistence;resoluti
+ on:=optional,javax.servlet;resolution:=optional;version="[3.0,4)",javax
+ .servlet.annotation;resolution:=optional;version="[3.0,4)",javax.servle
+ t.http;resolution:=optional;version="[3.0,4)",javax.servlet.jsp;resolut
+ ion:=optional,javax.servlet.jsp.tagext;resolution:=optional,javax.ws.rs
+ ;version="[1.1,2)",javax.ws.rs.core;version="[1.1,2)",javax.ws.rs.ext;v
+ ersion="[1.1,2)",javax.xml.namespace;resolution:=optional,org.objectweb
+ .asm;resolution:=optional
+Tool: Bnd-1.50.0
