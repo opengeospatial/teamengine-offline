@@ -27,6 +27,7 @@ org.opengis:geoapi-pending:jar:3.1-M04
 
 [Geotk]
 <http://download.geotoolkit.org/3.21/geotk-3.21-sources.zip>
+<http://hg.geotoolkit.org/geotoolkit-pending/files/f6ad7725cc2acf65a92c7fba7011d8cbc7ace633/>
 
 org.geotoolkit:geotk-epsg:jar:3.21
 <http://maven.geotoolkit.org/org/geotoolkit/geotk-epsg/3.21/>
