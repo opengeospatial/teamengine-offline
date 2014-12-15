@@ -41,6 +41,10 @@ javax.mail:mail:jar:1.4.7
 javax.servlet.jsp.jstl:jstl-api:jar:1.2
 <http://search.maven.org/#artifactdetails|javax.servlet.jsp.jstl|jstl-api|1.2|jar>
 
+javax.ws.rs:jsr311-api:jar:1.1.1
+<http://search.maven.org/#artifactdetails|javax.ws.rs|jsr311-api|1.1.1|jar>
+<http://search.maven.org/remotecontent?filepath=javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1-sources.jar>
+
 joda-time:joda-time:jar:2.3
 <http://search.maven.org/#artifactdetails|joda-time|joda-time|2.3|jar>
 
